@@ -2,7 +2,7 @@
 
 This MATLAB script provides a function to switch the **degree of freedom (DOF)** in SPM coregister between `6` and `12`.
 
-## Fetures
+## Features
 
 1. The `set_spm_dof` function allows users to dynamically change the DOF setting within the SPM coregistration process.  
 2. It simplifies changing between **6 DOF (rigid-body transformation)** and **12 DOF (affine transformation)**.  
@@ -23,4 +23,4 @@ set_spm_dof(12, 8) % Switch DOF to 12 for SPM8
 ## Prerequisites
 
 * MATLAB and SPM must be installed.
-* This script and the SPM directory should be in the same folder path.
+* Place this script in the same directory as your SPM folder.
